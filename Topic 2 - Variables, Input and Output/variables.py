@@ -1,8 +1,10 @@
-# Get user's name
-name = input("What is your name? ")
+name = "Mohamed Salat"
+print(name)
 
-# Get number of credits as an integer
-credits = int(input("How many credits are you taking this semester? "))
+school = "Minneapolis College"
+print(school)
 
-# Print a message with both variables
-print(f"{name} is taking {credits} credits this semester.")
+favorite_food = "Biriani Rice"
+print(favorite_food)
+
+print("My name is " + name + ", I go to " + school+ " and my favorite food is " + favorite_food)
