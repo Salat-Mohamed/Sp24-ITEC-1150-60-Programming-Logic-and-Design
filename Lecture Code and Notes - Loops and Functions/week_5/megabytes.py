@@ -1,3 +1,5 @@
+"""A program that uses a funtion to convert megabytes to bytes. """
+
 def megabytes_to_bytes(megabytes):
   bytes = megabytes * 1000000
   return bytes
