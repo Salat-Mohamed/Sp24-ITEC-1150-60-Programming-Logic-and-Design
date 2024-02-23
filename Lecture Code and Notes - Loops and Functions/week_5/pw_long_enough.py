@@ -9,7 +9,7 @@ def main():
 
   password = 'kittens'
   password_long_enough = is_password_long_enough(password)
-  if is_password_long_enough(passord)== True:
+  if is_password_long_enough(password) == True:
     print(f'The password "{password}"is long enough')
   else:
      print(f'The password"{password}" is NOT long enough')
